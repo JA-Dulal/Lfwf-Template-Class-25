@@ -115,12 +115,28 @@ color: #fff;
     z-index: -1;
    
 }
+
 .afterrr{
     border: 1px solid blue;
-    background-color: #fff;
+    background-color: rgb(40, 0, 219);
+    color: #fff;
 }
 .afterrr:hover{
     color: #fff;
+    
+
+}
+
+
+.prizing:hover .afterrr{
+    background-color: #fff !important;
+    color: black;
+}
+.hovvvver{
+    margin-top: 30px;
+    background-color: #fff !important;
+    color: black;
+
 }
 
 
