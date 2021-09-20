@@ -1,0 +1,209 @@
+
+
+
+
+
+
+
+.first-section{
+    background-color: #f4f7fc;
+    padding: 50px 0;
+}
+
+
+
+
+
+
+.textt-div{
+    text-align: center;
+}
+
+
+.textt-div p{
+    margin: 0 135px;
+}
+.textt-div h6{
+    color: #98a0df;
+}
+
+
+.undre{
+    width: 60px;
+    height: 3px ;
+    background-color: blue;
+    margin: 20px 0;
+}
+
+.new-wi{
+    display: inline-block;
+    background-color: rgb(38, 20, 97);
+}
+
+
+
+
+/*==========prizing-sectoin==============*/
+
+
+.prizing-all:hover{
+background-color: blue;
+color: #fff;
+
+}
+
+
+.tex{
+    transition: .8s;
+}
+.prizing-all{
+    transition: .4s;
+}
+
+.prizing-section{
+    background-color: #f4f7fc;
+    padding-bottom: 8%;
+    
+}
+.prizing{
+    background-color: #fff;
+    
+}
+.hov-sec a{
+
+    
+    position: relative;
+    
+
+}
+
+.prizing-nn a{
+    position: relative;
+    
+}
+.prizing-nn{
+    overflow: hidden;
+    display: inline-block;
+    
+}
+
+.prizing-nn a{
+    z-index: 2;
+}
+
+.prizing-nn a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 50px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+    
+    
+    
+
+}
+.prizing-nn a:hover::after{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    z-index: -1;
+   
+}
+.afterrr{
+    border: 1px solid blue;
+    background-color: #fff;
+}
+.afterrr:hover{
+    color: #fff;
+}
+
+
+
+/*=========banner-section=============*/
+
+
+
+.banner-section{
+    background-image: url(https://i.ibb.co/J55fYwq/free-bg.jpg) ;
+    background-size: cover;
+    background-position: bottom center;
+    padding: 170px 0;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 0, 255, .6);
+    z-index: -1;
+}
+
+
+.form-sec{
+    background-color: #3962d6;
+    
+}
+.undre-nn{
+    width: 60px;
+    height: 3px ;
+    background-color: rgb(255, 255, 255);
+    margin: 20px 0;
+    color: #fff;
+}
+
+.texer{
+    padding: 30px;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0, .2);
+}
+.texer a{
+    margin-top: 60px;
+}
+
+
+.banner-section h1{
+    margin: 0% 18%;
+
+}
+.banner-section p{
+    margin:  0% 30%;
+}
+
+input[type="email"]{
+
+    width: 325px;
+    height: 36px;
+    display: inline-block;
+    border-radius: 30px;
+
+}
+
+input[type="submit"]{
+    width: 200px;
+    height: 36px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #3962d6;
+    border: 1px solid #fff;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.form-sec{
+    background-color: #3962d6;
+    padding: 30px;
+    color: #fff;
+    border-radius: 5px;
+}
