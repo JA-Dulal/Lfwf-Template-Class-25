@@ -138,7 +138,9 @@ color: #fff;
     color: black;
 
 }
-
+.afterrr:hover{
+    color: #fff !important;
+}
 
 
 /*=========banner-section=============*/
